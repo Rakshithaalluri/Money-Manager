@@ -1,0 +1,127 @@
+/* Write your CSS here */
+.money-details-container {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+}
+
+@media (max-width: 768px) {
+  .money-details-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.balance-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ecfccb;
+  height: 100px;
+  width: 260px;
+  border: 1px #84cc16 solid;
+  border-radius: 15px;
+}
+
+@media (max-width: 768px) {
+  .balance-container {
+    height: 90px;
+    width: 100%;
+    min-width: 280px;
+    margin-bottom: 15px;
+  }
+}
+
+.balance-image {
+  height: 60px;
+  width: 60px;
+  margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+  .balance-image {
+    height: 48px;
+    width: 48px;
+    margin-right: 20px;
+  }
+}
+
+.balance-text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .balance-text-container {
+    margin-right: 50px;
+  }
+}
+.balance-text {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500px;
+  padding-right: 30px;
+  margin-bottom: 0px;
+}
+
+@media (max-width: 768px) {
+  .balance-text {
+    font-size: 10px;
+    margin-top: 25px;
+  }
+}
+
+.balance-amount {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 500px;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .balance-amount {
+    font-size: 14px;
+  }
+}
+
+.income-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cffafe;
+  height: 100px;
+  width: 260px;
+  border: 1px #06b6d4 solid;
+  border-radius: 15px;
+}
+
+@media (max-width: 768px) {
+  .income-container {
+    height: 90px;
+    width: 100%;
+    min-width: 280px;
+    margin-bottom: 15px;
+  }
+}
+
+.expenses-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ede9fe;
+  height: 100px;
+  width: 260px;
+  border: 1px #7c3aed solid;
+  border-radius: 15px;
+}
+
+@media (max-width: 768px) {
+  .expenses-container {
+    height: 90px;
+    width: 100%;
+    min-width: 280px;
+    margin-bottom: 15px;
+  }
+}

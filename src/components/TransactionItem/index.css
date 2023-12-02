@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.history-detailed-container {
+  display: flex;
+  align-items: center;
+  height: 38px;
+  width: 100%;
+  border: 1px #cbd5e1 solid;
+}
+
+.history-title {
+  width: 33%;
+  color: #7e858e;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400px;
+  padding: 8px;
+  padding-left: 18px;
+}
+
+.history-info {
+  width: 25%;
+  color: #7e858e;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400px;
+  padding: 8px;
+  padding-left: 0px;
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+}
+
+.delete-button {
+  height: 20px;
+  width: 20px;
+}
